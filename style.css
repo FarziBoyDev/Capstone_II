@@ -1,0 +1,58 @@
+.cardy>img{
+    height: 100px;
+    width: 100px;
+    float:left;
+    margin-right: 20px;
+}
+#flex{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    place-self: center;
+}
+li{
+    list-style: none;
+    font-family: EB Garamond;
+    font-size: 18px;
+}
+#flex2{
+    display: grid;
+    width: 70%;
+    justify-self: left;
+    align-self: left;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr); 
+    
+}
+html{
+    height: 100%;
+}
+.cardy2>img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#intrst>h1{
+    text-align: left;
+    background-color: #976f47;
+}
+#intro{
+    background-color: #e2cbb0;
+    padding-bottom: 10px;
+}
+#exp{
+    background-color: #B6A28E;
+}
+#contact{
+    
+    font-family: EB Garamond;
+    background-color: #baa068;
+}
+.cardy2>p{
+    font-family: EB Garamond;
+    font-size: 18px;
+}
+
