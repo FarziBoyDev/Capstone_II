@@ -56,3 +56,19 @@ html{
     font-size: 18px;
 }
 
+@media (max-width: 650px)
+{
+    section{
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+    div{
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+    #intrst{
+        margin-top: 450px;
+        
+    }
+    
+}
